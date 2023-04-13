@@ -1,0 +1,80 @@
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target gazebo_ros_gencfg
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target gazebo_msgs_generate_messages_cpp
+[  0%] Built target gazebo_msgs_generate_messages_eus
+[  0%] Built target gazebo_msgs_generate_messages_lisp
+[  0%] Built target gazebo_msgs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_version_helpers.dir/src/GazeboVersionHelpers.cpp.o[0m
+In file included from /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/src/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/src/GazeboVersionHelpers.cpp:1:
+In file included from /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/src/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/include/gazebo_version_helpers/GazeboVersionHelpers.h:4:
+In file included from /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/gazebo-11/gazebo/gazebo.hh:20:
+In file included from /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/gazebo-11/gazebo/gazebo_core.hh:19:
+In file included from /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/gazebo-11/gazebo/common/common.hh:6:
+[1m/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/gazebo-11/gazebo/common/Assert.hh:20:10: [0m[0;1;31mfatal error: [0m[1m'boost/assert.hpp' file not found[0m
+#include <boost/assert.hpp>
+[0;1;32m         ^~~~~~~~~~~~~~~~~~
+[0m1 error generated.
+make[2]: *** [CMakeFiles/gazebo_version_helpers.dir/build.make:76: CMakeFiles/gazebo_version_helpers.dir/src/GazeboVersionHelpers.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2093: CMakeFiles/gazebo_version_helpers.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

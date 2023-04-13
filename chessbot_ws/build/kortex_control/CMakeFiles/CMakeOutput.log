@@ -1,0 +1,331 @@
+The system is: Darwin - 21.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang 
+Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-isystem;/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang++ 
+Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EfovE8
+
+Run Build Command(s):/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/make -f Makefile cmTC_4e2f6/fast && /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/make  -f CMakeFiles/cmTC_4e2f6.dir/build.make CMakeFiles/cmTC_4e2f6.dir/build
+make[1]: Entering directory '/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EfovE8'
+Building C object CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o
+/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -c /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+clang version 14.0.6
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin
+clang-14: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/clang-14" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 609 -v -fcoverage-compilation-dir=/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EfovE8 -resource-dir /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdebug-compilation-dir=/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EfovE8 -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -x c /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin21.6.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include
+ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_4e2f6
+/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e2f6.dir/link.txt --verbose=1
+/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -L/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -v -Wl,-v CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -o cmTC_4e2f6 
+clang version 14.0.6
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin
+ "/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_4e2f6 -L/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -v CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609
+BUILD 04:48:50 Nov 19 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+make[1]: Leaving directory '/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EfovE8'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include]
+    add: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include] ==> [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include]
+  collapse include dir [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include] ==> [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  implicit include dirs: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include;/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-apple-darwin13\.4\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EfovE8]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/make -f Makefile cmTC_4e2f6/fast && /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/make  -f CMakeFiles/cmTC_4e2f6.dir/build.make CMakeFiles/cmTC_4e2f6.dir/build]
+  ignore line: [make[1]: Entering directory '/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EfovE8']
+  ignore line: [Building C object CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -c /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 14.0.6]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin]
+  ignore line: [clang-14: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/clang-14" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 609 -v -fcoverage-compilation-dir=/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EfovE8 -resource-dir /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdebug-compilation-dir=/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EfovE8 -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -x c /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin21.6.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include]
+  ignore line: [ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_4e2f6]
+  ignore line: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e2f6.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -pie -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -L/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -v -Wl -v CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -o cmTC_4e2f6 ]
+  ignore line: [clang version 14.0.6]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin]
+  link line: [ "/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_4e2f6 -L/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -v CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/libLTO.14.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.0.0] ==> ignore
+    arg [13.1] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4e2f6] ==> ignore
+    arg [-L/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib] ==> dir [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dead_strip_dylibs] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_4e2f6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib] ==> [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib]
+  collapse library dir [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib] ==> [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-UL2tm8
+
+Run Build Command(s):/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/make -f Makefile cmTC_89182/fast && /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/make  -f CMakeFiles/cmTC_89182.dir/build.make CMakeFiles/cmTC_89182.dir/build
+make[1]: Entering directory '/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-UL2tm8'
+Building CXX object CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+clang version 14.0.6
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin
+clang-14: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/clang-14" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 609 -v -fcoverage-compilation-dir=/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-UL2tm8 -resource-dir /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-UL2tm8 -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin21.6.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include
+ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/../include/c++/v1
+ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_89182
+/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89182.dir/link.txt --verbose=1
+/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -L/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -v -Wl,-v CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_89182 
+clang version 14.0.6
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin
+ "/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_89182 -L/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -v CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609
+BUILD 04:48:50 Nov 19 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/
+make[1]: Leaving directory '/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-UL2tm8'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include]
+    add: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/../include/c++/v1]
+    add: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include] ==> [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include]
+  collapse include dir [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/../include/c++/v1] ==> [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/c++/v1]
+  collapse include dir [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include] ==> [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  implicit include dirs: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include;/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/c++/v1;/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-apple-darwin13\.4\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-UL2tm8]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/make -f Makefile cmTC_89182/fast && /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/make  -f CMakeFiles/cmTC_89182.dir/build.make CMakeFiles/cmTC_89182.dir/build]
+  ignore line: [make[1]: Entering directory '/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-UL2tm8']
+  ignore line: [Building CXX object CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 14.0.6]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin]
+  ignore line: [clang-14: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/clang-14" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 609 -v -fcoverage-compilation-dir=/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-UL2tm8 -resource-dir /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-UL2tm8 -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin21.6.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include]
+  ignore line: [ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/../include/c++/v1]
+  ignore line: [ /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_89182]
+  ignore line: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89182.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -pie -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -L/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -v -Wl -v CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_89182 ]
+  ignore line: [clang version 14.0.6]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin]
+  link line: [ "/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -pie -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -o cmTC_89182 -L/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -v CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/libLTO.14.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.0.0] ==> ignore
+    arg [13.1] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_89182] ==> ignore
+    arg [-L/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib] ==> dir [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dead_strip_dylibs] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_89182.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib] ==> [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib]
+  collapse library dir [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib] ==> [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EqoN4h
+
+Run Build Command(s):/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/make -f Makefile cmTC_fad6e/fast && /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/make  -f CMakeFiles/cmTC_fad6e.dir/build.make CMakeFiles/cmTC_fad6e.dir/build
+make[1]: Entering directory '/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EqoN4h'
+Building C object CMakeFiles/cmTC_fad6e.dir/src.c.o
+/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang -DCMAKE_HAVE_LIBC_PTHREAD  -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_fad6e.dir/src.c.o -MF CMakeFiles/cmTC_fad6e.dir/src.c.o.d -o CMakeFiles/cmTC_fad6e.dir/src.c.o -c /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EqoN4h/src.c
+Linking C executable cmTC_fad6e
+/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fad6e.dir/link.txt --verbose=1
+/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib -L/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib  CMakeFiles/cmTC_fad6e.dir/src.c.o -o cmTC_fad6e 
+make[1]: Leaving directory '/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/CMakeScratch/TryCompile-EqoN4h'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+

@@ -1,0 +1,13 @@
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/chessbot-eye.pc
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-eye/cmake/chessbot-eyeConfig.cmake
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-eye/cmake/chessbot-eyeConfig-version.cmake
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-eye/cmake.lock, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./cmake.lock)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-eye/lib/pkgconfig/chessbot-eye.pc, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/chessbot-eye.pc)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-eye/share/chessbot-eye/cmake/chessbot-eyeConfig.cmake, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-eye/cmake/chessbot-eyeConfig.cmake)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-eye/share/chessbot-eye/cmake/chessbot-eyeConfig-version.cmake, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-eye/cmake/chessbot-eyeConfig-version.cmake)
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/chessbot-eye.pc
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-eye/cmake/chessbot-eyeConfig.cmake
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-eye/cmake/chessbot-eyeConfig-version.cmake
+Already unlinked: {}

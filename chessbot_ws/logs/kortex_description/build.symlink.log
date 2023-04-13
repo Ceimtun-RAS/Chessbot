@@ -1,0 +1,13 @@
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/chessbot-robot.pc
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-robot/cmake/chessbot-robotConfig.cmake
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-robot/cmake/chessbot-robotConfig-version.cmake
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-robot/cmake.lock, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./cmake.lock)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-robot/lib/pkgconfig/chessbot-robot.pc, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/chessbot-robot.pc)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-robot/share/chessbot-robot/cmake/chessbot-robotConfig.cmake, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-robot/cmake/chessbot-robotConfig.cmake)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-robot/share/chessbot-robot/cmake/chessbot-robotConfig-version.cmake, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-robot/cmake/chessbot-robotConfig-version.cmake)
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/chessbot-robot.pc
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-robot/cmake/chessbot-robotConfig.cmake
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-robot/cmake/chessbot-robotConfig-version.cmake
+Already unlinked: {}

@@ -1,0 +1,38 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[33mCMake Warning (dev) at /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+[36mCall Stack (most recent call first):[0m
+  /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/cmake/gazebo/gazebo-config.cmake:62 (include)
+  CMakeLists.txt:15 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning at /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'gazebo' but neither 'gazebo_INCLUDE_DIRS' nor
+  'gazebo_LIBRARIES' is defined.
+[36mCall Stack (most recent call first):[0m
+  /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:26 (catkin_package)
+
+[0m
+[33mCMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   gazebo_version_helpers
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m

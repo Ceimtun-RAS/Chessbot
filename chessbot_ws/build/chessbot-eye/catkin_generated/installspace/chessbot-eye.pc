@@ -1,0 +1,8 @@
+prefix=/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/install
+
+Name: chessbot-eye
+Description: Description of chessbot-eye
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

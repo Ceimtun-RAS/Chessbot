@@ -1,0 +1,1 @@
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/kortex_control/share/kortex_control/cmake/kortex_controlConfig-version.cmake
