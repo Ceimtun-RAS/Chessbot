@@ -1,5 +1,0 @@
-ros_kortex/chessbot-robot
-/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-robot/cmake.lock /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./cmake.lock
-/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-robot/lib/pkgconfig/chessbot-robot.pc /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/chessbot-robot.pc
-/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-robot/share/chessbot-robot/cmake/chessbot-robotConfig.cmake /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-robot/cmake/chessbot-robotConfig.cmake
-/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-robot/share/chessbot-robot/cmake/chessbot-robotConfig-version.cmake /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-robot/cmake/chessbot-robotConfig-version.cmake

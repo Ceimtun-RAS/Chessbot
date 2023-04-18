@@ -1,8 +1,0 @@
-prefix=/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/install
-
-Name: chessbot-robot
-Description: Description of chessbot-robot
-Version: 2.2.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

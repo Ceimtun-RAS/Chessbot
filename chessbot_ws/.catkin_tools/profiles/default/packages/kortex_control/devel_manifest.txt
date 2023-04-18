@@ -1,5 +1,0 @@
-ros_kortex/kortex_control
-/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/kortex_control/cmake.lock /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./cmake.lock
-/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/kortex_control/lib/pkgconfig/kortex_control.pc /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/kortex_control.pc
-/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/kortex_control/share/kortex_control/cmake/kortex_controlConfig-version.cmake /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/kortex_control/cmake/kortex_controlConfig-version.cmake
-/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/kortex_control/share/kortex_control/cmake/kortex_controlConfig.cmake /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/kortex_control/cmake/kortex_controlConfig.cmake

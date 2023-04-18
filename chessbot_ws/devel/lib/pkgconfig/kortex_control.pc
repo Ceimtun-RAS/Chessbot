@@ -1,1 +1,0 @@
-/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/kortex_control/lib/pkgconfig/kortex_control.pc

@@ -1,1 +1,0 @@
-/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-robot/share/chessbot-robot/cmake/chessbot-robotConfig.cmake
