@@ -36,6 +36,7 @@ Temporary Items
 
 ### ROS ###
 devel/
+.catkin_tools/
 logs/
 build/
 bin/
