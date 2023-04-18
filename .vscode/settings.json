@@ -1,3 +1,0 @@
-{
-    "cmake.sourceDirectory": "${workspaceFolder}/chessbot_ws/build/catkin_tools_prebuild"
-}
