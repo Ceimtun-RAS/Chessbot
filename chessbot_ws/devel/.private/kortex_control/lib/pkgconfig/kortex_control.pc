@@ -1,0 +1,8 @@
+prefix=/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/kortex_control
+
+Name: kortex_control
+Description: Description of kortex_control
+Version: 2.2.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

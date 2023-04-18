@@ -1,0 +1,5 @@
+chessbot-eye
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-eye/cmake.lock /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./cmake.lock
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-eye/lib/pkgconfig/chessbot-eye.pc /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/chessbot-eye.pc
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-eye/share/chessbot-eye/cmake/chessbot-eyeConfig.cmake /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-eye/cmake/chessbot-eyeConfig.cmake
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-eye/share/chessbot-eye/cmake/chessbot-eyeConfig-version.cmake /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/chessbot-eye/cmake/chessbot-eyeConfig-version.cmake

@@ -1,0 +1,1 @@
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/chessbot-eye/share/chessbot-eye/cmake/chessbot-eyeConfig-version.cmake

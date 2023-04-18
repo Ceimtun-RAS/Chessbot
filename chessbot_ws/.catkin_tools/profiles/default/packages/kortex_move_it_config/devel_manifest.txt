@@ -1,0 +1,2 @@
+ros_kortex/kortex_move_it_config/kortex_move_it_config
+"/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/kortex_move_it_config/cmake.lock" "/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./cmake.lock"

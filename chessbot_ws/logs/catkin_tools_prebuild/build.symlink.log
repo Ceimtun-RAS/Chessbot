@@ -1,0 +1,46 @@
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./setup.sh
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./setup.zsh
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./local_setup.sh
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./local_setup.zsh
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./_setup_util.py
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./env.sh
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./setup.bash
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./local_setup.bash
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/./cmake.lock
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/setup.sh, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./setup.sh)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/setup.zsh, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./setup.zsh)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/local_setup.sh, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./local_setup.sh)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/local_setup.zsh, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./local_setup.zsh)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/_setup_util.py, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./_setup_util.py)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/env.sh, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./env.sh)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/setup.bash, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./setup.bash)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/local_setup.bash, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./local_setup.bash)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/cmake.lock, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./cmake.lock)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Cleaning: (/Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./setup.sh
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./setup.zsh
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./local_setup.sh
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./local_setup.zsh
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./_setup_util.py
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./env.sh
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./setup.bash
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/./local_setup.bash
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Already unlinked: {}
+Unlinking: /Users/amoralesma/Documents/IEEE UN/Proyectos/chessbot-controller/chessbot_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Already unlinked: {}

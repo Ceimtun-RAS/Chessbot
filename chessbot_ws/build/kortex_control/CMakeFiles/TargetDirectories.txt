@@ -1,0 +1,13 @@
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/download_extra_data.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/tests.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/run_tests.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/clean_test_results.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/doxygen.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/_catkin_empty_exported_target.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/test.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/edit_cache.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/rebuild_cache.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/list_install_components.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/install.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/install/local.dir
+/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/kortex_control/CMakeFiles/install/strip.dir

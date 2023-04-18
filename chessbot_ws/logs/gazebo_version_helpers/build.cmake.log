@@ -1,0 +1,126 @@
+Not searching for unused variables given on the command line.
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[36m--[0m The C compiler identification is Clang 14.0.6
+[36m--[0m The CXX compiler identification is Clang 14.0.6
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Check for working C compiler: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang - skipped
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Check for working CXX compiler: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/x86_64-apple-darwin13.4.0-clang++ - skipped
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel/.private/gazebo_version_helpers
+[36m--[0m Using CMAKE_PREFIX_PATH: /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel;/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools
+[36m--[0m This workspace overlays: /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/devel;/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools
+[36m--[0m Found PythonInterp: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/python3.9 (found suitable version "3.9.15", minimum required is "3.9")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/python3.9
+[36m--[0m Using default Python package layout
+[36m--[0m Found PY_em: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/python3.9/site-packages/em.py
+[36m--[0m Using empy: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/python3.9/site-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/gazebo_version_helpers/test_results
+[36m--[0m Found gtest: gtests will be built
+[36m--[0m Using Python nosetests: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/nosetests-3.9
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[33mCMake Warning (dev) at /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+[36mCall Stack (most recent call first):[0m
+  /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/cmake-3.25/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/cmake/gazebo/gazebo-config.cmake:62 (include)
+  CMakeLists.txt:15 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[36m--[0m Found PkgConfig: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/bin/pkg-config (found version "0.29.2")
+[36m--[0m Checking for module 'bullet>=2.82'
+[36m--[0m   Found bullet, version 3.20
+[36m--[0m Found fcl: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include (found suitable version "0.7.0", minimum required is "0.5.0")
+[36m--[0m Found assimp: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include (found version "5.2.0")
+[36m--[0m Found DART: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include (Required is at least version "6.6") found components: dart
+[36m--[0m Found Boost: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time
+[36m--[0m Found Protobuf: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/libprotobuf.dylib (found version "3.19.4")
+[36m--[0m Looking for ignition-math6 -- found version 6.13.0
+[36m--[0m Searching for dependencies of ignition-math6
+[36m--[0m Found OGRE
+[36m--[0m   static     : OFF
+[36m--[0m   components : Bites;HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[36m--[0m   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus
+[36m--[0m   media      : /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/Media
+[36m--[0m Looking for ignition-math6 -- found version 6.13.0
+[36m--[0m Looking for ignition-transport8 -- found version 8.1.0
+[36m--[0m Searching for dependencies of ignition-transport8
+[36m--[0m Found Protobuf: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/libprotobuf.dylib (found suitable version "3.19.4", minimum required is "3")
+[36m--[0m Found UUID: TRUE
+[36m--[0m Looking for ignition-msgs5 -- found version 5.7.0
+[36m--[0m Searching for dependencies of ignition-msgs5
+[36m--[0m Looking for ignition-math6 -- found version 6.13.0
+[36m--[0m Checking for module 'tinyxml2'
+[36m--[0m   Found tinyxml2, version 9.0.0
+[36m--[0m Looking for ignition-msgs5 -- found version 5.7.0
+[36m--[0m Looking for ignition-common3 -- found version 3.13.2
+[36m--[0m Searching for dependencies of ignition-common3
+[36m--[0m Looking for dlfcn.h - found
+[36m--[0m Looking for libdl - found
+[36m--[0m Found DL: TRUE
+[36m--[0m Searching for <ignition-common3> component [graphics]
+[36m--[0m Looking for ignition-common3-graphics -- found version 3.13.2
+[36m--[0m Searching for dependencies of ignition-common3-graphics
+[36m--[0m Looking for ignition-math6 -- found version 6.13.0
+[36m--[0m Looking for ignition-fuel_tools4 -- found version 4.4.0
+[36m--[0m Searching for dependencies of ignition-fuel_tools4
+[36m--[0m Found CURL: /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/libcurl.dylib (found version "7.86.0")
+[36m--[0m Checking for module 'jsoncpp'
+[36m--[0m   Found jsoncpp, version 1.9.5
+[36m--[0m Found JSONCPP: TRUE
+[36m--[0m Checking for module 'yaml-0.1'
+[36m--[0m   Found yaml-0.1, version 0.2.5
+[36m--[0m Found YAML: TRUE
+[36m--[0m Checking for module 'libzip'
+[36m--[0m   Found libzip, version 1.9.2
+[36m--[0m Found ZIP: TRUE
+[36m--[0m Looking for ignition-common3 -- found version 3.13.2
+[36m--[0m Looking for ignition-math6 -- found version 6.13.0
+[36m--[0m Looking for ignition-msgs5 -- found version 5.7.0
+[33mCMake Warning at /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'gazebo' but neither 'gazebo_INCLUDE_DIRS' nor
+  'gazebo_LIBRARIES' is defined.
+[36mCall Stack (most recent call first):[0m
+  /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:26 (catkin_package)
+
+[0m
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX17
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX11
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX11 - Success
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX0X
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX0X - Success
+[36m--[0m Configuring done
+[33mCMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   gazebo_version_helpers
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/build/gazebo_version_helpers

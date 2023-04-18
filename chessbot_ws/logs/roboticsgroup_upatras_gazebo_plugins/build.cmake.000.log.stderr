@@ -1,0 +1,15 @@
+[31mCMake Error at /usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "control_toolbox"
+  with any of the following names:
+
+    control_toolboxConfig.cmake
+    control_toolbox-config.cmake
+
+  Add the installation prefix of "control_toolbox" to CMAKE_PREFIX_PATH or
+  set "control_toolbox_DIR" to a directory containing one of the above files.
+  If "control_toolbox" provides a separate development package or SDK, be
+  sure it has been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:4 (find_package)
+
+[0m
