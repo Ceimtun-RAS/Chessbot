@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/include/**",
+        "/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/src/chessbot-eye/include/**",
+        "/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot-controller/chessbot_ws/src/chessbot-robot/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
