@@ -103,3 +103,9 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * Dona con cripto a esta dirección: ``
 * etc.
 
+=======
+# Chessbot Project
+Automatic Serial Manipulator algorithm for KinovaGen3. Ceimtun-RAS 
+
+## Requirements 
+Build with Robostack in macOS Monterey using ros-noetic. _(catkin build toold)_

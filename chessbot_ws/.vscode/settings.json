@@ -1,0 +1,9 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/python3.9/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/usr/local/Caskroom/miniforge/base/envs/ros-noetic-tools/lib/python3.9/site-packages"
+    ],
+    "cmake.sourceDirectory": "/Users/amoralesma/Documents/ieee-un/Proyectos/chessbot/chessbot_ws/build/catkin_tools_prebuild"
+}
