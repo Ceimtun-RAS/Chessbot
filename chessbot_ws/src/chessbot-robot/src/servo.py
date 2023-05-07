@@ -6,13 +6,7 @@ import time
 
 PIN_MOT = 11
 
-# main config servo 
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(PIN_MOT, GPIO.OUT)
 
-servo = GPIO.PWM(PIN_MOT, 50) 
-
-servo.start(0)
 
 def change_velocity(duty):
     raspy.loginfo(f"servo moviendo a: {duty}")
@@ -32,5 +26,13 @@ def main():
 
 
 if __name__ == '__main__':
+    rospy.loginfo("comenzando"); 
+    # main config servo 
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(PIN_MOT, GPIO.OUT)
+
+    servo = GPIO.PWM(PIN_MOT, 50) 
+
+    servo.start(0)
     main()
 
