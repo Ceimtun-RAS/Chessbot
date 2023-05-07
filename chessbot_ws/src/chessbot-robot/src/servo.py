@@ -6,16 +6,10 @@ import time
 
 PIN_MOT = 11
 
-# main config servo 
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(PIN_MOT, GPIO.OUT)
 
-servo = GPIO.PWM(PIN_MOT, 50) 
-
-servo.start(0)
-
-def change_velocity(duty):
-    servo.ChangeDutyCycle(duty)
+def change_velocity(data):
+    rospy.loginfo("Moviendo servo a {data.data}")
+    servo.ChangeDutyCycle(data.data)
 
 def close(servo):
     servo.stop()
@@ -31,5 +25,13 @@ def main():
 
 
 if __name__ == '__main__':
+    rospy.loginfo("comenzando"); 
+    # main config servo 
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(PIN_MOT, GPIO.OUT)
+
+    servo = GPIO.PWM(PIN_MOT, 50) 
+
+    servo.start(0)
     main()
 
