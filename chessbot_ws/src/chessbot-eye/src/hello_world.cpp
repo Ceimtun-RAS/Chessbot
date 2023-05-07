@@ -27,6 +27,9 @@ int main(int argc, char** argv){
     	ROS_INFO("stream received..."); 
     	// Try to get a frame of a depth image
     	rs2::depth_frame depth = frames.get_depth_frame();
+        rs2::frame color = frames.get_color_frame(); 
+
+        std::cout << "Los datos de la realsense son: " << color << std::endl;  
 
         // Get the depth frame's dimensions
     	float width = depth.get_width();
@@ -34,7 +37,7 @@ int main(int argc, char** argv){
     	// Query the distance from the camera to the object in the center of the image
     	float dist_to_center = depth.get_distance(width / 2, height / 2);
 	
-	std::cout << "Los datos de la realsense son: " << dist_to_center << std::endl;  
+    	std::cout << "Los datos de la realsense son: " << dist_to_center << std::endl;  
 	
 	r.sleep(); 
     }
