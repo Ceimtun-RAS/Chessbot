@@ -15,7 +15,8 @@ servo = GPIO.PWM(PIN_MOT, 50)
 servo.start(0)
 
 def change_velocity(duty):
-    servo.ChangeDutyCycle(duty)
+    raspy.loginfo(f"servo moviendo a: {duty}")
+    servo.ChangeDutyCycle(duty.data)
 
 def close(servo):
     servo.stop()
