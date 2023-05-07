@@ -10,12 +10,13 @@ project(chessbot-eye)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
-  realsense2_camera
 )
+
+
+find_package(realsense2 REQUIRED)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -148,7 +149,8 @@ add_dependencies(hello ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TAR
 ## Specify libraries to link a library or executable target against
 target_link_libraries(hello
    ${catkin_LIBRARIES}
- )
+   ${realsense2_LIBRARY}
+   )
 
 #############
 ## Install ##
