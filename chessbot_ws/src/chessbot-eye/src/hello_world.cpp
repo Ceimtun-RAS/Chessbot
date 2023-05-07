@@ -3,8 +3,14 @@
 #include <iostream>
 #include <librealsense2/rs.hpp> // Include Intel RealSense Cross Platform API
 
+#include "ros/ros.h"
+#include "sensor_mgsg/PointCloud2.h"
 
-int main(void){
+
+int main(int argc, char** argv){
+    ros::init(argc, argv, "sensor")
+
+    ROS_INFO("comenzando nodo!"); 
     // Create a Pipeline - this serves as a top-level API for streaming and processing frames
     rs2::pipeline p;
 
@@ -24,6 +30,7 @@ int main(void){
 
     // Print the distance
     std::cout << "The camera is facing an object " << dist_to_center << " meters away \r";
-
+    ros::spin(); 
+    
     return 1; 
 }

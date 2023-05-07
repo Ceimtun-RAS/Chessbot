@@ -10,6 +10,8 @@ project(chessbot-eye)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
+  std_msgs
+  sensor_msgs
 )
 
 
