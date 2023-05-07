@@ -10,8 +10,9 @@ project(chessbot-robot)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
 )
-find_package(WiringPi REQUIRED)
+#find_package(WiringPi REQUIRED)
 
+FIND_LIBRARY(WIRING_LIBRARY wiringPi /home/chessbot/libs/wiringPi)
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -142,15 +143,19 @@ add_executable(servo src/servo.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-add_dependencies(servo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(servo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS} wiringPi)
 
 ## Specify libraries to link a library or executable target against
+
 target_link_libraries(servo
    ${catkin_LIBRARIES}
-)
+   ${WIRINGPI_LIBRARY}
+   )
+
 #############
 ## Install ##
 #############
+
 
 # all install targets should use catkin DESTINATION variables
 # See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html
