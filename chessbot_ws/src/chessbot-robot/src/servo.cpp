@@ -5,10 +5,10 @@ int main(int argc, char** argv){
     ros::init(argc, argv, "servo"); 
     ros::NodeHandle n; 
 
-    ROS_INFO("Concetando para mover el servo"); 
+    ROS_INFO("Conectando para mover el servo"); 
     wiringPiSetup();
 
-    int pin = 1; // Reemplaza con el número de pin GPIO que estás utilizando
+    int pin = 11; // Reemplaza con el número de pin GPIO que estás utilizando
     int range = 100; // Establece el rango de valores PWM
     int divisor = 500; // Establece el divisor de reloj para la señal PWM
 
