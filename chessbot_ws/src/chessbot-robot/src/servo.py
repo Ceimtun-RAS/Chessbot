@@ -1,32 +1,33 @@
 #!/usr/bin/env python
 import rospy
+from std_msgs.msg import Int16
 import RPi.GPIO as GPIO
 import time 
 
 PIN_MOT = 11
 
-def main():
-    rospy.init_node('prueba')
-    
-    GPIO.setmode(GPIO.BCM)
-    GPIO.setup(PIN_MOT, GPIO.OUT)
+# main config servo 
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(PIN_MOT, GPIO.OUT)
 
-    servo = GPIO.PWM(PIN_MOT, 50) 
+servo = GPIO.PWM(PIN_MOT, 50) 
 
-    servo.start(0)
-    print("Waiting for 1 second") 
-    time.sleep(1)
+servo.start(0)
 
-    print("Rotating at intervals of 12 deg")
-    duty = 2
-    while duty <= 17:
-        servo.ChangeDutyCycle(duty)
-        time.sleep(1)
-        duty = duty + 1
+def change_velocity(duty):
+    servo.ChangeDutyCycle(duty)
 
+def close(servo):
     servo.stop()
-    GPIO.cleanup()
-    print("Done")
+    GPIO.cleanup() 
+
+def main():
+    rospy.init_node('myServo')
+    rospy.loginfo("Configurando servo...")
+
+    rospy.Subscriber("cmd_servo", Int16, change_velocity)
+    
+    rospy.spin()
 
 
 if __name__ == '__main__':
