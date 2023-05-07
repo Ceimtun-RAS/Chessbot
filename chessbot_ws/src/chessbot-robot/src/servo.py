@@ -7,10 +7,9 @@ import time
 PIN_MOT = 11
 
 
-
-def change_velocity(duty):
-    raspy.loginfo(f"servo moviendo a: {duty}")
-    servo.ChangeDutyCycle(duty.data)
+def change_velocity(data, servo):
+    rospy.loginfo("Moviendo servo a {data.data}")
+    servo.ChangeDutyCycle(data.data)
 
 def close(servo):
     servo.stop()
@@ -19,13 +18,6 @@ def close(servo):
 def main():
     rospy.init_node('myServo')
     rospy.loginfo("Configurando servo...")
-
-    rospy.Subscriber("cmd_servo", Int16, change_velocity)
-    
-    rospy.spin()
-
-
-if __name__ == '__main__':
     rospy.loginfo("comenzando"); 
     # main config servo 
     GPIO.setmode(GPIO.BCM)
@@ -34,5 +26,13 @@ if __name__ == '__main__':
     servo = GPIO.PWM(PIN_MOT, 50) 
 
     servo.start(0)
+
+    rospy.Subscriber("cmd_servo", Int16, change_velocity, servo)
+    
+    rospy.spin()
+
+
+if __name__ == '__main__':
+  
     main()
 
