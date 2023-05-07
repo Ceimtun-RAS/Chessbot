@@ -12,7 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 #find_package(WiringPi REQUIRED)
 
-find_library(WIRINGPI_LIBRARY wiringPi)
+find_library(WIRINGPI_LIBRARY wiringPi /home/chessbot/libs/wiringPi)
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -143,7 +143,7 @@ add_executable(servo src/servo.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-add_dependencies(servo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS} wiringPi)
+add_dependencies(servo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
 

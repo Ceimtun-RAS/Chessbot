@@ -1,0 +1,3 @@
+<launch> 
+	<node pkg="chessbot-robot" type="servo" name="servo"/>
+</launch> 
