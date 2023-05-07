@@ -6,7 +6,7 @@ int main(int argc, char** argv){
     ros::NodeHandle n; 
 
     ROS_INFO("Conectando para mover el servo"); 
-    wiringPiSetup();
+    wiringPiSetupGpio();
 
     int pin = 11; // Reemplaza con el número de pin GPIO que estás utilizando
     int range = 100; // Establece el rango de valores PWM
