@@ -9,7 +9,7 @@ active_servo = True
 
 def change_velocity(data, servo):
 
-    rospy.loginfo("Moviendo servo a {data.data}")
+    rospy.loginfo(f"Moviendo servo a {data.data}")
     if active_servo:
         servo.ChangeDutyCycle(data.data)
     else:
