@@ -1,0 +1,40 @@
+version: "4.28.0"
+
+networks:
+  ros_noetic_chessbot:
+    driver: bridge
+
+services:
+  ros-master:
+    image: ros:noetic-robot
+    container_name: rosmaster
+    hostname: rosmaster
+    ports:
+      - "11311:11311"
+    command: roscore
+    networks:
+      - ros_noetic_chessbot
+    restart: always
+
+  talker:
+    image: ros:noetic-robot
+    depends_on:
+      - ros-master
+    environment:
+      - "ROS_MASTER_URI=http://ros-master:11311"
+    command: stdbuf -o L rostopic pub /chatter std_msgs/String "hello" -r 1
+    networks:
+      - ros_noetic_chessbot
+    restart: always
+
+  listener:
+    image: ros:noetic-robot
+    depends_on:
+      - ros-master
+    environment:
+      - "ROS_MASTER_URI=http://ros-master:11311"
+    command: stdbuf -o L rostopic echo /chatter
+    networks:
+      - ros_noetic_chessbot
+    restart: always
+
